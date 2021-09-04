@@ -67,5 +67,10 @@ margin: 0 0 24px;
     margin-top: 24px;
     font-weight: 700;
     display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.home-content__btn:hover{
+    color: black;
+    background-color: white;
 }
 /* End of home section */
