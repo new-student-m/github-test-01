@@ -1,0 +1,71 @@
+/* Start Global Rules */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+}
+/* End Global Rules */
+
+/* Start of Navbar */
+
+/* End of Navbar */
+
+/* Start of home section */
+#home {
+  background-image: url(../images/header-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.69);
+  z-index: 1;
+}
+.container {
+  background-color: salmon;
+}
+.home-content {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  max-width: 800px;
+}
+.home-content__welcome {
+font-size: 1.5rem;
+font-family: "Montserrat", sans-serif;
+margin: 0 0 24px;
+}
+.home-content__title
+{
+    font-size: 54px;
+    font-weight: 700;
+}
+.home-content__p{
+    font-size: 1rem;
+    margin: 24px 150px 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffffbf;
+}
+.home-content__btn
+{
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid #f5f5f5;
+    padding: 15px 32px;
+    margin-top: 24px;
+    font-weight: 700;
+    display: inline-block;
+}
+/* End of home section */
